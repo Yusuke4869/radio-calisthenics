@@ -1,0 +1,20 @@
+* {
+    text-align: center;
+}
+
+.movie_page {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    margin: 1rem;
+}
+
+$movie-width: 0.6;
+
+iframe {
+    border: none;
+    height: calc((100vw * #{$movie-width} / 16) * 9);
+    width: calc(100vw * #{$movie-width});
+}
